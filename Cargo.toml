@@ -1,0 +1,11 @@
+[package]
+name = "rs-nrf-fw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m-rt = "0.7.3"
+nrf52840-hal = "0.16.0"
+ssd1306 = "0.8.0"
+embedded-graphics = "0.8.1"
+panic-semihosting = "0.6.0"
