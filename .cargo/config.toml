@@ -1,4 +1,5 @@
-[target.thumbv7m-none-eabi]
+[target.thumbv7m-none-eabihf]
+runner = "probe-run --chip nRF52840_xxAA  --defmt"
 rustflags = [
   # --- KEEP existing `link-arg` flags ---
   "-C", "link-arg=-Tlink.x",
